@@ -10,5 +10,5 @@ test('Properly clones array', () => {
     // Check if the cloned array is not the exact same array
     expect(
         cloneArray(array)
-    ).not.tobe(array)
+    ).not.toBe(array)
 })
